@@ -54,7 +54,7 @@ struct RestaurantView: View {
                                 Button(action: {
                                     showPopup.toggle()
                                 }, label: {
-                                    Text("Add review").padding().background(.black).foregroundColor(.white).cornerRadius(9)
+                                    Text("Add review").padding().background(Color.primaryColor).foregroundColor(Color.secondaryColor).cornerRadius(9)
                                 })
                             }
                                 

@@ -128,7 +128,7 @@ class DatabaseConnection: ObservableObject {
             authDataResult, error in
             
             if let error = error {
-                print("Something went wrong, \(error.localizedDescription)")
+                print("Something went wrong, \(error)")
                 return
             }
             

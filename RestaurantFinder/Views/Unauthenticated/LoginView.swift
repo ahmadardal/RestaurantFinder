@@ -34,10 +34,12 @@ struct LoginView: View {
             }.buttonStyle(.borderedProminent)
             
             NavigationLink(destination: RegisterView(), label: {
-                Text("Register an account").foregroundColor(.black).bold()
+                Text("Register an account").foregroundColor(Color(UIColor {
+                    $0.userInterfaceStyle == .dark ? UIColor(.white) : UIColor(.black)
+                })).bold()
             })
             
-        }.padding().background(.red)
+        }.padding()
         
         
     }

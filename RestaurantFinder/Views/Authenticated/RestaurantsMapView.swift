@@ -30,11 +30,11 @@ struct RestaurantsMapView: View {
                     VStack {
                         
                         ZStack {
-                            Circle().fill(.black).frame(width: 35, height: 35)
-                            Image(systemName: "carrot").foregroundColor(.white)
+                            Circle().fill(Color.primaryColor).frame(width: 35, height: 35)
+                            Image(systemName: "carrot").foregroundColor(Color.secondaryColor)
                         }
 
-                        Text(restaurant.title).bold().foregroundColor(.black)
+                        Text(restaurant.title).bold().foregroundColor(Color.primaryColor)
                     }
                 })
 
@@ -56,7 +56,7 @@ struct RestaurantsMapView: View {
                 Button(action: {
                     viewOnMap.toggle()
                 }, label: {
-                    Text("View on list").padding().background(.black).foregroundColor(.white).cornerRadius(9)
+                    Text("View on list").padding().background(Color.primaryColor).foregroundColor(Color.secondaryColor).cornerRadius(9)
                 })
             }
             

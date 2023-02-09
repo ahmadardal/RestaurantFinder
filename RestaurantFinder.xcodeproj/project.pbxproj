@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD7FA794299484D4000BFF3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD7FA793299484D3000BFF3D /* GoogleService-Info.plist */; };
+		DD7FA79629948E4A000BFF3D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7FA79529948E4A000BFF3D /* Colors.swift */; };
 		DDCB098C2913C0C7007A8886 /* RestaurantFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCB098B2913C0C7007A8886 /* RestaurantFinderApp.swift */; };
 		DDCB098E2913C0C7007A8886 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCB098D2913C0C7007A8886 /* ContentView.swift */; };
 		DDCB09902913C0C8007A8886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCB098F2913C0C8007A8886 /* Assets.xcassets */; };
@@ -17,9 +19,6 @@
 		DDCB09B72913C11D007A8886 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCB09B62913C11D007A8886 /* LoginView.swift */; };
 		DDCB09B92913C322007A8886 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCB09B82913C322007A8886 /* RegisterView.swift */; };
 		DDCB09BD2913C4D4007A8886 /* RestaurantsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCB09BC2913C4D4007A8886 /* RestaurantsListView.swift */; };
-		DDCB09BF2913C62E007A8886 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDCB09BE2913C62E007A8886 /* GoogleService-Info.plist */; };
-		DDCB09C02913C62E007A8886 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDCB09BE2913C62E007A8886 /* GoogleService-Info.plist */; };
-		DDCB09C12913C62E007A8886 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDCB09BE2913C62E007A8886 /* GoogleService-Info.plist */; };
 		DDCB09C42913C788007A8886 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DDCB09C32913C788007A8886 /* FirebaseAuth */; };
 		DDCB09C62913C788007A8886 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DDCB09C52913C788007A8886 /* FirebaseFirestore */; };
 		DDCB09C82913C788007A8886 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DDCB09C72913C788007A8886 /* FirebaseFirestoreSwift */; };
@@ -60,6 +59,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD7FA78E29947F87000BFF3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DD7FA793299484D3000BFF3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD7FA79529948E4A000BFF3D /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		DDCB09882913C0C7007A8886 /* RestaurantFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDCB098B2913C0C7007A8886 /* RestaurantFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFinderApp.swift; sourceTree = "<group>"; };
 		DDCB098D2913C0C7007A8886 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,7 +75,6 @@
 		DDCB09B62913C11D007A8886 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		DDCB09B82913C322007A8886 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		DDCB09BC2913C4D4007A8886 /* RestaurantsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantsListView.swift; sourceTree = "<group>"; };
-		DDCB09BE2913C62E007A8886 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DDCB09C92913C920007A8886 /* DatabaseConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseConnection.swift; sourceTree = "<group>"; };
 		DDCB09CE2913E77C007A8886 /* RestaurantCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCard.swift; sourceTree = "<group>"; };
 		DDCB09D32913EC2C007A8886 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
@@ -134,15 +135,17 @@
 		DDCB098A2913C0C7007A8886 /* RestaurantFinder */ = {
 			isa = PBXGroup;
 			children = (
+				DD7FA78E29947F87000BFF3D /* Info.plist */,
 				DDCB09D22913EC0A007A8886 /* DTO */,
 				DDCB09CD2913E759007A8886 /* Components */,
-				DDCB09BE2913C62E007A8886 /* GoogleService-Info.plist */,
 				DDCB09B52913C0F4007A8886 /* Views */,
 				DDCB098B2913C0C7007A8886 /* RestaurantFinderApp.swift */,
 				DDCB09C92913C920007A8886 /* DatabaseConnection.swift */,
 				DDCB098D2913C0C7007A8886 /* ContentView.swift */,
 				DDCB098F2913C0C8007A8886 /* Assets.xcassets */,
+				DD7FA793299484D3000BFF3D /* GoogleService-Info.plist */,
 				DDCB09912913C0C8007A8886 /* Preview Content */,
+				DD7FA79529948E4A000BFF3D /* Colors.swift */,
 			);
 			path = RestaurantFinder;
 			sourceTree = "<group>";
@@ -332,7 +335,7 @@
 			files = (
 				DDCB09932913C0C8007A8886 /* Preview Assets.xcassets in Resources */,
 				DDCB09902913C0C8007A8886 /* Assets.xcassets in Resources */,
-				DDCB09BF2913C62E007A8886 /* GoogleService-Info.plist in Resources */,
+				DD7FA794299484D4000BFF3D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +343,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDCB09C02913C62E007A8886 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +350,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDCB09C12913C62E007A8886 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,6 +368,7 @@
 				DDCB09DC29140412007A8886 /* RestaurantsMapView.swift in Sources */,
 				DDCB09BD2913C4D4007A8886 /* RestaurantsListView.swift in Sources */,
 				DDCB09D42913EC2C007A8886 /* Restaurant.swift in Sources */,
+				DD7FA79629948E4A000BFF3D /* Colors.swift in Sources */,
 				DDCB09CA2913C920007A8886 /* DatabaseConnection.swift in Sources */,
 				DDCB09E4291512F5007A8886 /* ReviewPopupView.swift in Sources */,
 				DDCB098C2913C0C7007A8886 /* RestaurantFinderApp.swift in Sources */,
@@ -542,7 +544,7 @@
 				DEVELOPMENT_TEAM = 5HCGK89358;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = RestaurantFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -571,7 +573,7 @@
 				DEVELOPMENT_TEAM = 5HCGK89358;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = RestaurantFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

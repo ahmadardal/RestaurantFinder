@@ -32,7 +32,7 @@ struct RestaurantsListView: View {
                 Button(action: {
                     viewOnMap.toggle()
                 }, label: {
-                    Text("View on map").padding().background(.black).foregroundColor(.white).cornerRadius(9)
+                    Text("View on map").padding().background(Color.primaryColor).foregroundColor(Color.secondaryColor).cornerRadius(9)
                 })
                 
             })

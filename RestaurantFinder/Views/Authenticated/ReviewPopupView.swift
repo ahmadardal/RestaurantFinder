@@ -37,7 +37,7 @@ struct ReviewPopupView: View {
         
         ZStack() {
             
-            Color(.systemGray5)
+            Color.lightPrimaryColor
             
             
             VStack {
@@ -59,7 +59,7 @@ struct ReviewPopupView: View {
                 Button(action: {
                     showPopup.toggle()
                 }, label: {
-                    Text("Cancel").foregroundColor(.black).padding(.vertical)
+                    Text("Cancel").foregroundColor(.primaryColor).padding(.vertical)
                 })
                 
  
